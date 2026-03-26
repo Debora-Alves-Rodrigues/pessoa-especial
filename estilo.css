@@ -9,17 +9,17 @@ body {
 }
 
 header {
-  background-color: #1a6ec6;
+  background-color: #000000;
   color: white;
-  padding: 0.5rem;
+  padding: 0rem;
   border-radius: 4px;
   margin-bottom: 1.0rem;
 }
 
 h1 {
-  color: rgb(0, 0, 0); /*Pode escolher outra cor se quiser*/
+  color: rgba(0, 0, 0, 0); /*Pode escolher outra cor se quiser*/
   text-align: center;
-  font-family: sans-serif;
+  font-family: Arial;
   font-size: 60px;
 }
 

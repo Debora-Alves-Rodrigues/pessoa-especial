@@ -27,3 +27,14 @@ p {
   font-family: sa;
   font-size: 20px;
 }
+
+.letra-divertida {
+    font-size: 80px;            /* Tamanho grande */
+    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif; /* Fonte divertida */
+    color: #ff8c00;             /* Cor vibrante (laranja) */
+    float: left;                /* Faz o texto contornar a letra */
+    line-height: 60px;          /* Ajusta o espaçamento */
+    margin-right: 10px;         /* Espaço entre a letra e o texto */
+    text-shadow: 2px 2px 0px #fff, 4px 4px 0px #000; /* Efeito de sombra estilo desenho */
+    font-weight: bold;
+}

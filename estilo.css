@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('Imagens/Fundo_do_site.jpg');
+  background-image: url('Fundo_do_site.jpg');
   background-size: cover;        /* Faz a imagem preencher todo o espaço sem sobrar buracos */
   background-position: center;   /* Garante que o meio da foto seja o foco */
   background-repeat: no-repeat;  /* Impede que a imagem fique se repetindo como um ladrilho */

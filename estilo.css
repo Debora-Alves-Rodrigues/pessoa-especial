@@ -1,25 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: rgba(167, 232, 252, 0.61);
-  color: #333;
-  padding: 2rem;
-}
-
-header {
-  background-color: #1a1a2e;
-  color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
+  background-image: url('Imagens/Fundo_do_site.jpg');
+  background-size: cover;        /* Faz a imagem preencher todo o espaço sem sobrar buracos */
+  background-position: center;   /* Garante que o meio da foto seja o foco */
+  background-repeat: no-repeat;  /* Impede que a imagem fique se repetindo como um ladrilho */
+  background-attachment: fixed;  /* (Opcional) Cria um efeito de parallax quando você rola a página */
+  min-height: 100vh;             /* Garante que o fundo tenha no mínimo a altura da tela */
 }
 
 h1 {
-  color: rgb(0, 0, 0); /*Pode escolher outra cor se quiser*/
+  color: white; /*Pode escolher outra cor se quiser*/
   text-align: center;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 40px;
 }

@@ -8,6 +8,14 @@ body {
   min-height: 100vh;             /* Garante que o fundo tenha no mínimo a altura da tela */
 }
 
+header {
+  background-color: #000000;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
 h1 {
   color: rgb(0, 0, 0); /*Pode escolher outra cor se quiser*/
   text-align: center;
@@ -16,13 +24,14 @@ h1 {
 }
 
 p {
-  font-family: ;
-  font-size: 30px;
+  font-family: sa;
+  font-size: 20px;
 }
 
-.seu-card {
-  background: rgba(255, 255, 255, 0.7); /* Branco com 70% de transparência */
-  backdrop-filter: blur(10px);         /* Desfoca o fundo atrás da carta */
-  padding: 30px;                       /* Dá um respiro para o texto */
-  border-radius: 20px;
+header {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
 }

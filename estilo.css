@@ -1,40 +1,53 @@
 
 body {
-  background-image: url('Fundo_do_site.jpg');
-  background-size: cover;        /* Faz a imagem preencher todo o espaço sem sobrar buracos */
-  background-position: center;   /* Garante que o meio da foto seja o foco */
-  background-repeat: no-repeat;  /* Impede que a imagem fique se repetindo como um ladrilho */
-  background-attachment: fixed;  /* (Opcional) Cria um efeito de parallax quando você rola a página */
-  min-height: 100vh;             /* Garante que o fundo tenha no mínimo a altura da tela */
-}
-
-header {
-  background-color: #000000;
-  color: white;
-  padding: 0rem;
-  border-radius: 0.5px;
-  margin-bottom: 1.5rem;
-}
-
-h1 {
-  color: rgb(255, 255, 255); /*Pode escolher outra cor se quiser*/
-  text-align: center;
-  font-family: Arial;
-  font-size: 60px;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #d3e9ff;
+  color: #333;
+  margin: 0;                /* Remove as margens padrões que "empurram" a imagem */
+  padding: 0;
+  min-height: 100vh;
 }
 
 p {
-  font-family: sa;
-  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;       /* Um tamanho bom para leitura fofa */
+  line-height: 1.6;      /* Espaçamento entre linhas para não embolar */
+  color: #444;           /* Um cinza escuro é mais suave que o preto total */
+  font-weight: 800;
 }
 
 .letra-divertida {
     font-size: 70px;            /* Tamanho grande */
     font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif; /* Fonte divertida */
-    color: #fffd7f;             /* Cor vibrante (laranja) */
+    color: #fdfa49;             /* Cor vibrante (laranja) */
     float: left;                /* Faz o texto contornar a letra */
     line-height: 60px;          /* Ajusta o espaçamento */
     margin-right: 10px;         /* Espaço entre a letra e o texto */
     text-shadow: 2px 2px 0px #fff, 4px 4px 0px #000; /* Efeito de sombra estilo desenho */
     font-weight: bold;
+    display: block;        /* Faz o span ocupar a linha toda */
+    text-align: center;    /* Centraliza o texto dentro da linha */
+    float: none;           /* REMOVA o float: left se ele ainda estiver lá */
+} 
+
+   .foto-varal {
+    display: block;        /* Faz a imagem se comportar como um bloco */
+    width: 100vw;          /* O SEGREDO: Use 100vw (view-width), que força a imagem a ter 100% da largura da janela */
+    height: auto;          /* Mantém a proporção, para não achatar as fotos */
+    margin: 0;             /* Garante que não haja margens */
+    mix-blend-mode: multiply; /* Mantenha isso para o blend mode */
+    object-fit: cover;    /* Garante que a imagem preencha o espaço sem distorcer (útil em telas gigantes) */
 }
+
+.seu-card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    
+    /* Adicione estas linhas */
+    padding: 5%; /* O espaço será sempre 5% da largura da tela */
+    box-sizing: border-box;
+}
+}
+

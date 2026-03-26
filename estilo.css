@@ -1,5 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgba(167, 232, 252, 0.61); /*Pode escolher outra cor se quiser*/
+  font-family: Arial, sans-serif;
+  background-color: rgba(167, 232, 252, 0.61);
+  color: #333;
+  padding: 2rem;
+}
+
+header {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
 }
 
 h1 {

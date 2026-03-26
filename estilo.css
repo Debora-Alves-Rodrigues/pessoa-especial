@@ -3,11 +3,11 @@ body {
 }
 
 h1 {
-  color: rgb(255, 253, 133); /*Pode escolher outra cor se quiser*/
+  color: rgb(0, 0, 0); /*Pode escolher outra cor se quiser*/
   text-align: center;
 }
 
 p {
-  font-family: verdana;
+  font-family: serif;
   font-size: 20px;
 }

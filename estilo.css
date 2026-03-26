@@ -29,9 +29,9 @@ p {
 }
 
 .letra-divertida {
-    font-size: 80px;            /* Tamanho grande */
+    font-size: 70px;            /* Tamanho grande */
     font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif; /* Fonte divertida */
-    color: #ff8c00;             /* Cor vibrante (laranja) */
+    color: #fffd7f;             /* Cor vibrante (laranja) */
     float: left;                /* Faz o texto contornar a letra */
     line-height: 60px;          /* Ajusta o espaçamento */
     margin-right: 10px;         /* Espaço entre a letra e o texto */

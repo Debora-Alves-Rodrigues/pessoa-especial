@@ -1,11 +1,24 @@
 
 body {
   font-family: 'Varela Round', sans-serif;
-  background-color: #d3e9ff;
-  color: #333;
-  margin: 0;                /* Remove as margens padrões que "empurram" a imagem */
-  padding: 0;
+  /* Substitua 'nome-da-sua-foto.jpg' pelo nome real do arquivo que você subiu */
+  background-image: url('Fundo_do_site.png');
+    
+  /* Faz a imagem cobrir a tela inteira, mesmo se você rolar a página */
+  background-size: cover; 
+    
+  /* Centraliza a imagem para o foco não ficar num canto vazio */
+  background-position: center; 
+    
+  /* Impede que a imagem se repita como um ladrilho de banheiro */
+  background-repeat: no-repeat; 
+    
+  /* Mantém o fundo parado enquanto você rola o texto (efeito elegante) */
+  background-attachment: fixed; 
+    
+  /* Altura mínima para garantir que o fundo ocupe a tela toda */
   min-height: 100vh;
+  margin: 0;
 }
 
 p {
@@ -30,24 +43,24 @@ p {
     float: none;           /* REMOVA o float: left se ele ainda estiver lá */
 } 
 
-   .foto-varal {
+.foto-varal {
     display: block;        /* Faz a imagem se comportar como um bloco */
     width: 100vw;          /* O SEGREDO: Use 100vw (view-width), que força a imagem a ter 100% da largura da janela */
     height: auto;          /* Mantém a proporção, para não achatar as fotos */
     margin: 0;             /* Garante que não haja margens */
     mix-blend-mode: multiply; /* Mantenha isso para o blend mode */
     object-fit: cover;    /* Garante que a imagem preencha o espaço sem distorcer (útil em telas gigantes) */
+    position: relative;    /* Ajuda a garantir que fique na frente de outros elementos, se necessário */
+    z-index: 10;           /* Um z-index alto para garantir que fique na frente do body */
 }
 
 .seu-card {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.795);
     border-radius: 20px;
     max-width: 800px;
     margin: 50px auto;
     
-    /* Adicione estas linhas */
-    padding: 5%; /* O espaço será sempre 5% da largura da tela */
-    box-sizing: border-box;
-}
+    padding: 40px; /* Isso cria 40 pixels de espaço em todos os lados */
+    box-sizing: border-box; /* Isso garante que o padding não aumente o tamanho total do card */
 }
 

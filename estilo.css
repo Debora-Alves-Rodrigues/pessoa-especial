@@ -11,9 +11,18 @@ body {
 h1 {
   color: rgb(0, 0, 0); /*Pode escolher outra cor se quiser*/
   text-align: center;
+  font-family: sans-serif;
+  font-size: 45px;
 }
 
 p {
-  font-family: sans-serif;
-  font-size: 40px;
+  font-family: ;
+  font-size: 30px;
+}
+
+.seu-card {
+  background: rgba(255, 255, 255, 0.7); /* Branco com 70% de transparência */
+  backdrop-filter: blur(10px);         /* Desfoca o fundo atrás da carta */
+  padding: 30px;                       /* Dá um respiro para o texto */
+  border-radius: 20px;
 }
